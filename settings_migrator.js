@@ -507,6 +507,75 @@ const DefaultSettings = {
 		]
 	},
 
+	/* =============================== MERCHANT GOBLINS =============================== */
+	"goblins": {
+		"logTime": {},
+		"regions": [
+			// Allemantheia
+			{
+				"logDiff": 10800,
+				"name": "Allemantheia",
+				"name_RU": "Аллемантея",
+				"npcs": [
+					{
+						"huntingZoneId": 72,
+						"templateId": 1276,
+						"name": "Mystery Market Coin Vendor (Allemantheia)",
+						"name_RU": "Гоблин, ответственный за доставку (Аллемантея)"
+					}
+				]
+			},
+			// Highwatch
+			{
+				"logDiff": 32400,
+				"name": "Highwatch",
+				"name_RU": "Верхний Дозор",
+				"npcs": [
+					{
+						"huntingZoneId": 183,
+						"templateId": 1276,
+						"name": "Mystery Market Coin Vendor (Highwatch)",
+						"name_RU": "Гоблин, ответственный за доставку (Верхний Дозор)"
+					}
+				]
+			},
+			// Velika
+			{
+				"logDiff": 54000,
+				"name": "Velika",
+				"name_RU": "Велика",
+				"npcs": [
+					{
+						"huntingZoneId": 63,
+						"templateId": 1276,
+						"name": "Mystery Market Coin Vendor (Velika)",
+						"name_RU": "Гоблин, ответственный за доставку (Велика)"
+					},
+					{
+						"huntingZoneId": 63,
+						"templateId": 1284,
+						"name": "Mystery Market Coin Vendor (Velika)",
+						"name_RU": "Гоблин, ответственный за доставку (Велика)"
+					}
+				]
+			},
+			// Kaiator
+			{
+				"logDiff": 75600,
+				"name": "Kaiator",
+				"name_RU": "Кайатор",
+				"npcs": [
+					{
+						"huntingZoneId": 84,
+						"templateId": 1276,
+						"name": "Mystery Market Coin Vendor (Kaiator)",
+						"name_RU": "Гоблин, ответственный за доставку (Кайатор)"
+					}
+				]
+			}
+		]
+	},
+
 	/* =============================== MERCHANTS =============================== */
 	"merchants": {
 		"logTime": {},
