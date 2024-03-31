@@ -2,7 +2,7 @@
     "name": "Boss-Helper",
     "options": {
         "niceName": "BH",
-        "guiName": "Boss-Helper",
+        "guiName": "Boss-Helper-MT",
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
         "settingsVersion": 26
